@@ -7,7 +7,7 @@ I hope that some of you find it useful as well.
 import (
 	"fmt"
 
-	"github.com/hoanthiennguyen/stack"
+	"github.com/hoanthiennguyen/go-stack"
 )
 
 func main() {

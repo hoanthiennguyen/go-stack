@@ -1,3 +1,3 @@
-module github.com/hoanthiennguyen/stack
+module github.com/hoanthiennguyen/go-stack
 
 go 1.21.6
