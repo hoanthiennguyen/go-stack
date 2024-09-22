@@ -5,10 +5,15 @@ import (
 )
 
 type Stack[T any] interface {
+	// Push adds an element to the top of the stack
 	Push(e T)
+	// Pop removes and returns the top element of the stack
 	Pop() (T, error)
+	// Len returns the number of elements in the stack
 	Len() int
+	// Peek returns the top element of the stack without removing it
 	Peek() (T, error)
+	// IsEmpty returns true if the stack is empty
 	IsEmpty() bool
 }
 
